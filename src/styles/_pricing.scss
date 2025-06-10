@@ -1,0 +1,74 @@
+.pricing {
+    background-color: #000;
+    padding: 2rem;
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+
+    h3{
+        margin-bottom: 1.5rem;
+        font-size:30px;
+        font-weight: 400;
+    }
+    &__content {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1200px;
+        display: flex;  
+        justify-content: center;;
+    }
+
+    // Cada card individual (seu .pricing__container atual)
+    &__container {
+        background: #1a1a2e;    /* Cor de fundo do card */
+        padding: 2rem;
+        border-radius: 10px;
+        width: 30%;            /* Largura de cada card */
+        min-width: 250px;      /* Largura mínima antes de quebrar */
+        margin: 0 10px;
+    }
+
+    // Seus estilos existentes 
+    &__icon-img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 1rem;
+    }
+
+    &__title {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: #6e45e2;
+    }
+
+    &__subtitle {
+        font-size: 1.0rem;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+
+    &__button {
+        background-color: #6e45e2;
+        color: #fff;
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background-color 0.3s ease;
+        width: 100%;
+
+        &:hover {
+            background-color: #8368cf;
+        }
+    }
+
+    // Responsividade para mobile
+    @media (max-width: 768px) {
+        &__container {
+            width: 100%;
+            max-width: 350px;
+            margin-bottom: 1.5rem;
+        }
+    }   
+}

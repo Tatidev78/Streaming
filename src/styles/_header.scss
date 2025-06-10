@@ -1,0 +1,57 @@
+@use 'cores';
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    padding: 0;
+    background-color: cores.$corPrimaria;
+
+    &__logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 120px;
+        width: auto;
+        margin: 0;
+    }
+
+    &__link{
+        list-style: none;
+        display: flex;
+
+        a{
+            display: flex;
+            height: 40px;
+            width: 150px;
+            justify-content: center;
+            color: cores.$corDeFundo;
+            text-decoration: none;            
+            font-size: 1.1rem;
+            margin-left: 20px;
+            margin-right: 20px;
+            transition: all 0.3s ease-in-out;
+            background-color: transparent;
+            // border: 2px solid cores.$corDeFundo;
+            // border-radius: 8px; // arredondado
+            // padding: 8px 14px;
+
+            &:hover{
+                color: cores.$corBotao;
+                transform: scale(1.2);
+                
+            }
+        }
+        
+
+    
+    }
+}
+
+
+@media (max-width:768px){
+    header img{
+        height: 40px;
+    }
+}

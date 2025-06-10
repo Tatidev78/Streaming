@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="dist/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div>
+                <img class="header__logo" src="./dist/images/bananatv_logo.png" alt="bananatv_logo">
+            </div>
+            <nav>
+                <ul class="header__link">
+                    <li>
+                        <a href="#" >Assine</a>              
+                    </li>
+                    <li>
+                        <a href="#" >Inscreva-se</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <!-- Carrossel com vídeos do YouTube -->
+                <div class="hero__carousel">
+                  <div class="hero__container">
+                    <div class="hero__slides">
+                      <!-- Slide 1 -->
+                      <div class="hero__slide">
+                        <iframe src="https://www.youtube.com/embed/9Z_P_-CjIrg" allowfullscreen></iframe>
+                      </div>
+                      <!-- Slide 2 -->
+                      <div class="hero__slide">
+                        <iframe src="https://www.youtube.com/embed/R0W0wodPKXc" allowfullscreen></iframe>
+                      </div>
+                      <!-- Slide 3 -->
+                      <div class="hero__slide">
+                        <iframe src="https://www.youtube.com/embed/vKQi3bBA1y8" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="hero__indicators">
+                        <div class="hero__indicators-dot" data-index="0"></div>
+                        <div class="hero__indicators-dot" data-index="1"></div>
+                        <div class="hero__indicators-dot" data-index="2"></div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+          </main>
+            <section>
+                <div class="filmes">
+                    <h1 class="filmes__title">Assista á seus shows favoritos</h1>
+                    <div class="filmes__img-container">
+                        <div class="filmes__img__card">
+                            <img class="filmes__img" src="./dist/images/cacto1.png" alt="Cacto kung-fu">
+                            <h3 class="filmes__img__title">Cacto Kung-Fu</h3>
+                        </div>
+                        <div class="filmes__img__card">
+                            <img class="filmes__img" src="./dist/images/careca1.jpg" alt="O careca">
+                            <h3 class="filmes__img__title">As tranças de um careca</h3>
+                        </div>
+                        <div class="filmes__img__card">
+                            <img class="filmes__img" src="./dist/images/clown1.png" alt="O palhaço">
+                            <h3 class="filmes__img__title">O palhaço e o manequim</h3>
+                        </div>
+                        <div class="filmes__img__card">
+                            <img class="filmes__img" src="./dist/images/listrado1.png" alt="Menino listrado">
+                            <h3 class="filmes__img__title">O pijama e o menino listrado</h3>
+                        </div>
+                        <div class="filmes__img__card">
+                            <img class="filmes__img" src="./dist/images/polaroide1.jpeg" alt="Polaroide">
+                            <h3 class="filmes__img__title">Polaroide</h3>
+                        </div>
+                        <div class="filmes__img__card">
+                            <img class="filmes__img" src="./dist/images/samurai1.jpeg" alt="Samurai">
+                            <h3 class="filmes__img__title">A rendenção do Samurai</h3>
+                        </div>
+                        <div class="filmes__img__card">
+                            <img class="filmes__img" src="./dist/images/romance1.jpg" alt="Romance">
+                            <h3 class="filmes__img__title">Um novo romance</h3>
+                        </div>
+                        <div class="filmes__img__card">
+                            <img class="filmes__img" src="./dist/images/terror1.png" alt="Terror">
+                            <h3 class="filmes__img__title">A volta dos que não foram.</h3>
+                        </div>
+                        <div class="filmes__img__card">
+                            <img class="filmes__img" src="./dist/images/tvman1.png" alt="TVman">
+                            <h3 class="filmes__img__title">TvMan</h3>
+                        </div>
+                    </div>                 
+                    <p class="filmes__description">Assista aos filmes e séries mais recentes com a gente</p>
+                    <a href="#" class="btn btn--primario">Comece agora!</a>
+                </div>
+            </section>
+            <section class="pricing">
+                <div class="pricing__card">
+                    <h2 class="pricing__title">Escolha seu plano ideal</h2>
+                    <p class="pricing__subtitle">Assista onde quiser e cancele quando quiser</p>
+                    <div class="pricing__content">
+                        <div class="pricing__container">
+                            <h3>Plano Básico</h3>
+                                <div class="pricing__plan">
+                                    <div class="pricing__icon">
+                                        <img src="./dist/images/banana sentada.png" alt="Plano básico" class="pricing__icon-img">
+                                    </div>
+                                    <div class="pricing__subtitle">R$ 19,90/mês</div>
+                                    <div class="pricing__subtitle">por R$ 199,90/ano</div>
+                                    <button class="pricing__button">Assinar agora</button>
+                                </div>
+                        </div>
+                        <div class="pricing__container">
+                            <h3>Plano Top</h3>
+                                <div class="pricing__plan">
+                                    <div class="pricing__icon">
+                                        <img src="./dist/images/bananas 2.png" alt="Plano básico" class="pricing__icon-img">
+                                    </div>
+                                    <div class="pricing__subtitle">R$ 29,90/mês</div>
+                                    <div class="pricing__subtitle">ou R$ 299,90/ano</div>
+                                    <button class="pricing__button">Assinar agora</button>
+                                </div>
+                        </div>
+                        <div class="pricing__container">
+                            <h3>Plano Turbo</h3>
+                                <div class="pricing__plan">
+                                    <div class="pricing__icon">
+                                        <img src="./dist/images/banana3.png" alt="Plano básico" class="pricing__icon-img">
+                                    </div>
+                                    <div class="pricing__subtitle">R$ 39,90/mês</div>
+                                    <div class="pricing__subtitle">ou R$ 399,90/ano</div>
+                                    <button class="pricing__button">Assinar agora</button>
+                                </div>
+                        </div>
+                    </div>                    
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer__content">
+                <div class="footer__content__logo">
+                    <img src="./dist/images/bananatv_logo.png" alt="Logo Banana TV" class="footer__logo">
+                </div>
+                <p class="footer__description">© 2025 Banana TV. Todos os direitos reservados.</p>
+                <div class="footer__content__social">
+                    <a href="#" class="footer__link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer__link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer__link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="dist/js/main.js"></script>
+</body>
+</html>
